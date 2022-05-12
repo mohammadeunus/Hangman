@@ -199,7 +199,7 @@ namespace WinFormsApp_v2
 
                     //Console.WriteLine("OOPS! WRONG GUESS, A LIFESPAN HAS BEEN DEDUCTED");
                     d--;
-                    LifeRemaining.Text = "life remaining: "+d.ToString();
+                    LifeRemaining.Text = "remaining life: "+d.ToString();
                     //Console.WriteLine("Your remain life is {0}", d);
                     pn[(int)playerGuess - 1]++;
                 }

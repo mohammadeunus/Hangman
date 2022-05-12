@@ -332,9 +332,8 @@
             this.headTextBox.Font = new System.Drawing.Font("Tekton Pro Cond", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.headTextBox.Location = new System.Drawing.Point(458, 346);
             this.headTextBox.Name = "headTextBox";
-            this.headTextBox.Size = new System.Drawing.Size(113, 29);
+            this.headTextBox.Size = new System.Drawing.Size(0, 29);
             this.headTextBox.TabIndex = 104;
-            this.headTextBox.Text = "headTextBox";
             // 
             // output
             // 
@@ -343,9 +342,9 @@
             this.output.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.output.Location = new System.Drawing.Point(49, 347);
             this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(123, 26);
+            this.output.Size = new System.Drawing.Size(225, 26);
             this.output.TabIndex = 105;
-            this.output.Text = "the output ";
+            this.output.Text = "lets begin the game...";
             this.output.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // LifeRemaining
@@ -354,9 +353,8 @@
             this.LifeRemaining.Font = new System.Drawing.Font("Tekton Pro Cond", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.LifeRemaining.Location = new System.Drawing.Point(458, 375);
             this.LifeRemaining.Name = "LifeRemaining";
-            this.LifeRemaining.Size = new System.Drawing.Size(121, 29);
+            this.LifeRemaining.Size = new System.Drawing.Size(0, 29);
             this.LifeRemaining.TabIndex = 106;
-            this.LifeRemaining.Text = "Life remaining";
             this.LifeRemaining.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // niceTry
@@ -365,9 +363,8 @@
             this.niceTry.Font = new System.Drawing.Font("Tekton Pro Cond", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.niceTry.Location = new System.Drawing.Point(49, 397);
             this.niceTry.Name = "niceTry";
-            this.niceTry.Size = new System.Drawing.Size(61, 23);
+            this.niceTry.Size = new System.Drawing.Size(0, 23);
             this.niceTry.TabIndex = 107;
-            this.niceTry.Text = " nice try";
             this.niceTry.Click += new System.EventHandler(this.label3_Click);
             // 
             // yourGuess
@@ -376,9 +373,8 @@
             this.yourGuess.Font = new System.Drawing.Font("Tekton Pro", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.yourGuess.Location = new System.Drawing.Point(49, 373);
             this.yourGuess.Name = "yourGuess";
-            this.yourGuess.Size = new System.Drawing.Size(106, 25);
+            this.yourGuess.Size = new System.Drawing.Size(0, 25);
             this.yourGuess.TabIndex = 108;
-            this.yourGuess.Text = "yourGuess";
             // 
             // imageList1
             // 
